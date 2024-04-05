@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: url(https://img.freepik.com/premium-vector/vector-cute-green-gingham-plaid-checkered-pattern-with-heart-star-background-wallpaper_921039-4510.jpg);
+}
+
+h1 {
+    font-family: "Rubik Scribble", system-ui;
+    color:rgb(24, 84, 64);
+    text-shadow:5px;
+}
+p {
+    font-family: "Ubuntu", sans-serif;
+}
+button {
+    background-color: rgb(24, 84, 64);
+    border: none;
+    color: white;
+    padding: 1px 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: "Ubuntu", sans-serif;
+    border-radius: 5px;
+
+}
+
+.content {
+    text-align: center;
+}
+.img1{
+    height: 300px;
+    transform: translate(70%, 10%);
+    }
+ #wrap {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+     }          
+    

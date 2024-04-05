@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<hmtl>
+<head>
+    <meta charset="utf-8">
+    <title>Currency converter for PFQ</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Scribble&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+    
+</head>
+
+<body>
+<img src="export202404012025362660.png" class="img1">
+<p></p>
+<div id="wrap">
+  
+
+    <h1>Currency converter for PFQ</h1>
+    <p>This website aims to help those who have difficulty with the currency conversion of PokefarmQ.</p>
+    <p>This section helps converting one currency value to another:</p>
+
+    <p></p><input type="number" id="amount" placeholder="Enter amount">
+        <select id="fromCurrency">
+            <option value="ZC">ZC</option>
+            <option value="GP">GP</option>
+            <option value="Cr">Credits</option>
+        </select> to
+        <select id="toCurrency">
+            <option value="ZC">ZC</option>
+            <option value="GP">GP</option>
+            <option value="Cr">Credits</option>
+        </select><br>
+        <button onclick="convertCurrency()">Convert</button></p>
+
+    <div id="wrap"><div id="result"></div>
+
+
+</div><div id="wrap">
+<h1>How much do I still have to pay?</h1>
+<p>This section helps calculating how much you still owe someone in another currency.</p>
+    <p>I owe <input type="number" id="amount1" placeholder="Enter amount" size="10">
+        <select id="oweCurrency">
+            <option value="ZC">ZC</option>
+            <option value="GP">GP</option>
+            <option value="Cr">Credits</option>
+        </select> and I have <input type="number" id="amount2" placeholder="Enter amount" size="10">
+        <select id="haveCurrency">
+            <option value="ZC">ZC</option>
+            <option value="GP">GP</option>
+            <option value="Cr">Credits</option>
+        </select>
+        <button onclick="calculateOwe()">Calculate</button></p>
+        <p><div id="result1"></div></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+</hmtl>
